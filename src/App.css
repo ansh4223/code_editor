@@ -1,0 +1,25 @@
+
+.code-editor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 400px;
+}
+
+.code-editor textarea {
+  flex: 1;
+  border: none;
+  resize: none;
+  overflow: auto;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+}
+
+.code-editor .prism-editor {
+  flex: 2;
+  border-left: 1px solid #ddd;
+  padding: 10px;
+  overflow: auto;
+}
